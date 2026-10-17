@@ -1,0 +1,54 @@
+# MUST Apply
+
+## Project Overview
+
+MUST Apply is a student application portal prototype
+developed as an Internet and Web course project.
+
+The project demonstrates a student-friendly interface
+for account registration and login.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- PHP
+- MySQL
+- WampServer
+- Visual Studio Code
+
+## Main Features
+
+- Student portal home page
+- Account registration
+- Duplicate email checking
+- Secure password hashing
+- User login and logout
+- Session-based dashboard
+- Responsive navy-and-gold interface
+- MySQL database integration
+
+## Local Installation
+
+1. Install WampServer.
+2. Copy the project folder into the WampServer `www` directory.
+3. Create a database named `must_apply_db`.
+4. Create the required `users` table.
+5. Configure the database connection in `db.php`.
+6. Start WampServer.
+7. Open `http://localhost/must-apply/`.
+
+## Database Table
+
+The `users` table stores:
+
+- id
+- full_name
+- email
+- password hash
+- created_at
+
+## Academic Project
+
+This is an educational prototype and is not an official
+Mbarara University of Science and Technology admissions system.
